@@ -1,0 +1,72 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:robobunny="http://robobunny.com"
+    android:title="@string/settings_title" >
+
+    <PreferenceCategory android:title="@string/pref_category_general">
+
+        <CheckBoxPreference
+            android:key="@string/pref_double_tap_key"
+            android:defaultValue="true"
+            android:title="@string/pref_double_tap_title"
+            android:summary="@string/pref_double_tap_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_appearance">
+
+        <ListPreference
+            android:key="@string/texture_pref_key"
+            android:entries="@array/Textures"
+            android:summary="@string/settings_texture_list_summary"
+            android:entryValues="@array/TextureDrawables"
+            android:title="@string/texture_list_title"
+            android:defaultValue="1"/>
+
+        <SeekBarPreference
+            android:key="@string/speed_pref_key"
+            android:title="@string/speed"
+            android:summary="@string/speed_pref_summary"
+            android:defaultValue="5"
+            android:max="10"
+            robobunny:min="2"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight=""
+            />
+
+        <SeekBarPreference
+            android:key="@string/center_band_pref_key"
+            android:title="@string/center_band_height"
+            android:summary="@string/center_band_pref_summary"
+            android:defaultValue="3"
+            android:max="10"
+            robobunny:min="2"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight=""
+            />
+
+        <SeekBarPreference
+            android:key="@string/brightness_pref_key"
+            android:title="@string/brightness"
+            android:summary="@string/brightness_pref_summary"
+            android:defaultValue="5"
+            android:max="10"
+            robobunny:min="2"
+            robobunny:unitsLeft=""
+            robobunny:unitsRight=""
+            />
+
+        <CheckBoxPreference
+            android:key="@string/pref_is_center_bright_key"
+            android:defaultValue="false"
+            android:title="@string/pref_is_center_bright_title"
+            android:summary="@string/pref_is_center_bright_summary"/>
+
+        <CheckBoxPreference
+            android:key="@string/pref_rotate_walls_key"
+            android:defaultValue="true"
+            android:title="@string/pref_rotate_walls_title"
+            android:summary="@string/pref_rotate_walls_summary"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

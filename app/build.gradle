@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.rrapps.heavensdoor"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 10
+        versionName "1.11"
+    }
+
+    signingConfigs {
+        release {
+            try {
+                Properties localProps = new Properties()
+                localProps.load(new FileInputStream(file('../release-keystore.properties')))
+                storeFile file(localProps['storeFile'])
+                storePassword localProps['storePassword']
+                keyAlias localProps['keyAlias']
+                keyPassword localProps['keyPassword']
+            } catch (FileNotFoundException ignored) {
+                println("RELEASE KEYSTORE NOT FOUND")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    implementation project(':ABGLUtils')
+    implementation project(':gLWallpaperService')
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application Name -->
+    <string name="app_name">Heaven\'s Door LWP</string>
+
+    <!-- Name in Live Wallpaper Picker list -->
+    <string name="lwp_name">Heaven\'s Door</string>
+
+    <!-- Description in Live Wallpaper Picker list -->
+    <string name="lwp_desc">Take the journey to heaven and hell</string>
+
+    <!-- Author -->
+    <string name="lwp_author">Abhishek Bansal</string>
+
+    <!-- Quick little message displayed when the Live Wallpaper Picker is opened -->
+    <!-- The message text is the prefix, lwp_name, and suffix concatenated -->
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list of live wallpapers</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_texture_list_summary">Choose an Image</string>
+    <string name="texture_list_title">Select Image</string>
+
+    <string name="pref_category_appearance">Appearance</string>
+    <string name="pref_category_general">General</string>
+
+    <string name="texture_pref_key">texturePrefKey</string>
+    <string name="title_activity_preview">PreviewActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Wallpaper Settings</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="preview">Preview</string>
+    <string name="speed">Speed</string>
+    <string name="speed_pref_summary">Adjust speed of movement</string>
+    <string name="speed_pref_key">speedPref</string>
+
+    <string name="center_band_height">Distance between walls</string>
+    <string name="center_band_pref_summary">Adjust distance between two walls</string>
+    <string name="center_band_pref_key">centerBandHeightKey</string>
+
+    <string name="brightness">Brightness</string>
+    <string name="brightness_pref_summary">Adjust Brightness of Wallpaper</string>
+    <string name="brightness_pref_key">brightnessPref</string>
+    <string name="pref_double_tap_key">prefOnDoubleTapKey</string>
+    <string name="pref_double_tap_title">Settings on Double Tap</string>
+    <string name="pref_double_tap_summary">Open Settings Window on Double Tap</string>
+    <string name="pref_use_accelerometer_key">prefUseAccerometerKey</string>
+    <string name="pref_use_accelerometer_title">Virtual Reality Effect</string>
+    <string name="pref_use_accelerometer_summary">VR Effect when phone is tilted</string>
+
+    <string name="pref_is_center_bright_key">prefIsCenterBrightKey</string>
+    <string name="pref_is_center_bright_title">Make Center Bright</string>
+    <string name="pref_is_center_bright_summary">Toggle Between Bright/Dark Center</string>
+
+    <string name="pref_rotate_walls_key">prefRotateWallsKey</string>
+    <string name="pref_rotate_walls_title">Rotating Walls</string>
+    <string name="pref_rotate_walls_summary">Toggle Rotation Animation</string>
+
+    <string name="pref_is_warp_mode_title">Time Warp Mode</string>
+    <string name="pref_is_warp_mode_summary">Warp the time as in sci-fi movies</string>
+    <string name="pref_is_warp_mode_key">prefIsWarpModeKey</string>
+    <string name="header_ad_pref_key">PrefAdMobHeaderBanner</string>
+    <string name="footer_ad_pref_key">PrefAdMobFooterBanner</string>
+
+</resources>
