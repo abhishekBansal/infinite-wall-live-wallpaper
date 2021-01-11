@@ -18,7 +18,7 @@ Get it on [Google Play](https://play.google.com/store/apps/details?id=com.rrapps
 ![](/play_assets/animation.gif)
 
 ## Video
-    [![Infinite Wall 3D Live Wallpaper](https://img.youtube.com/vi/flMK4Wi1Dmw/0.jpg)](https://www.youtube.com/watch?v=flMK4Wi1Dmw)
+[![Infinite Wall 3D Live Wallpaper](https://img.youtube.com/vi/flMK4Wi1Dmw/0.jpg)](https://www.youtube.com/watch?v=flMK4Wi1Dmw)
 
 ## Texture Attributions
 ### CGTextures
